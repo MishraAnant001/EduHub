@@ -1,0 +1,16 @@
+body{
+    background-image: linear-gradient(to right, #cd8a7b, #d59b8d, #ddaca0, #e5bdb3, #eccec7);
+    overflow: hidden;
+}
+.btn{
+    display: block;
+    width: 15rem !important;
+    margin-left: auto;
+    color: white !important;
+}
+::placeholder{
+    opacity: 0.4 !important;
+}
+#submit:hover{
+    scale:1.10!important;
+   }

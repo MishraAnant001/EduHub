@@ -1,0 +1,38 @@
+body {
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    height: 100vh !important;
+    background-color: rgba(239, 205, 175, 0.569) !important;
+}
+.navbar{
+    background-color: rgb(205, 138, 123) ;  
+}
+.btn-nav:hover{
+    scale: 1.10!important;
+}
+.bgc{
+    background-color: #cd8a7b ;
+    color: white;
+}
+.nav-link:hover{
+    scale: 1.10!important;
+}
+
+.animate__animated.animate__zoomIn {
+    --animate-duration: 3.5s;
+    --animate-delay: 3.5s;
+
+  }
+.animate__animated.animate__slideInLeft{
+    --animate-duration: 4s;
+    --animate-delay: 4s;
+  }
+  .animate__animated.animate__slideInRight{
+    --animate-duration: 3s;
+    --animate-delay: 3s;
+  }
+.animate__animated.animate__bounceInUp{
+    --animate-duration: 3s;
+    --animate-delay: 4s;
+}

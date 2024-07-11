@@ -1,0 +1,32 @@
+body {
+    background-image: linear-gradient(to right, #cd8a7b, #d59b8d, #ddaca0, #e5bdb3, #eccec7);
+    overflow: hidden;
+}
+.section {
+    width: 35rem !important;
+    height: 20rem !important;
+}
+.btnoption {
+    background-color: #cd8a7b;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-size: 18px;
+    margin: 10px;
+}
+.btnoption:hover {
+    scale: 1.10 !important;
+}
+.start {
+    background-color: #cd8a7b;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-size: 18px;
+    margin: 10px;
+}
+.start:hover {
+    scale: 1.10 !important;
+}

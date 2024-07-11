@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Management System</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./Resources/StyleSheets/index.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" type="image/x-icon" href="../Resources/Images/logo-removebg-preview.png">
+</head>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="./index.html"><img src="./Resources/Images/logo-removebg-preview.png"
+          alt="logo" width="40" height="40"></a>
+      <button class="navbar-toggler bg-white " type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+          
+            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">  <i class="fa-solid fa-gamepad"></i>
+              Apps
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./QR code generator/index.html" target="_blank">QR Code generator</a>
+              </li>
+              <li><a class="dropdown-item" href="./Weather App/index.html" target="_blank">Weather App</a></li>
+              <li><a class="dropdown-item" href="./To Do List/index.html" target="_blank">To Do List</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false"><i class="fa-solid fa-dice"></i>
+              Game Zone
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./Quiz App/index.html" target="_blank">Quiz App</a></li>
+              <li><a class="dropdown-item" href="./Stone Paper Scissor/index.html" target="_blank">Stone Paper
+                  Scissor</a></li>
+              <li><a class="dropdown-item" href="./guess the word/index.html" target="_blank">Guess the word</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="d-flex justify-content-lg-end">
+          <a name="" id="" class="btn btn-sm  mx-2 btn-nav" href="./Pages/signup.html" role="button"
+            style="background-color: white; color: #cd8a7b;font-weight: bold;"><i class="fa-solid fa-lock mx-2"></i>Sign-Up</a>
+          <a name="" id="" class="btn btn-sm  mx-2 btn-nav" href="./Pages/login.html" role="button"
+            style="background-color: white; color: #cd8a7b;font-weight: bold;"><i class="fa-solid fa-unlock-keyhole mx-2"></i>Log-In</a>
+          <a name="" id="" class="btn btn-sm  mx-2 btn-nav" href="./Pages/admin.html" role="button"
+            style="background-color: white; color: #cd8a7b;font-weight: bold;"><i class="fa-solid fa-user-lock mx-2"></i>Admin</a>
+
+        </div>
+      </div>
+
+    </div>
+  </nav>
+  <!-- Header Section -->
+
+
+  <header class="text-center py-5 animate__animated animate__zoomIn text-secondary">
+    <div class="container">
+      <h1 class="display-4 mb-3">Welcome to Edu Hub</h1>
+      <p class="lead">Your one-stop solution to manage students</p>
+    </div>
+  </header>
+
+
+  <!-- About Section -->
+  <section class="py-5 text-secondary">
+    <div class="container ">
+      <div class="row d-flex justify-content-center flex-wrap-reverse">
+        <div class="col-lg-6 animate__animated animate__slideInLeft ">
+          <h2 class="display-5 mb-4 mt-sm-3">About the App</h2>
+          <p class="lead text-start">Manage your students effortlessly and enjoy a range of additional features to
+            enhance
+            productivity and entertainment. Our application combines student management with essential utilities and fun
+            games to make learning and organization enjoyable for educators, administrators, and students.</p>
+        </div>
+        <div class="col-lg-5 animate__animated   ">
+          <img src="./Resources/Images/manage.png" width="400" height="400" class="mx-auto img-fluid rounded"
+            alt="About Image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class=" py-5">
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-4 mb-4 mx-5 animate__animated animate__bounceInUp">
+          <div class="card h-100 ">
+            <div class="card-body bgc rounded-3">
+              <h3 class="card-title">Student Management</h3>
+              <p class="card-text">Administrators can create, view, update, and delete student profiles with our simple
+                CRUD functionality. Students can register and update their own profiles within the system.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4 mx-5 ">
+          <div class="card h-100 animate__animated animate__bounceInUp">
+            <div class="card-body bgc rounded-3">
+              <h3 class="card-title">Apps and Games</h3>
+              <p class="card-text">Users can try our useful apps like weather app, to-do list, and QR code generator or
+                can also play interesting games like guess the word, stone paper scissor.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <!-- <footer class=" footer navbar-fixed-bottom bg-dark text-white text-center py-4 ">
+    <div class="container">
+      <p>&copy; 2024 Edu Hub. All Rights Reserved.</p>
+    </div>
+  </footer> -->
+  <nav class="navbar fixed-bottom navbar-dark text-white">
+    <div class="container-fluid">
+      <p class="mx-auto">&copy; 2024 Edu Hub. All Rights Reserved.</p>
+    </div>
+  </nav>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
+<!-- <div class="footer navbar-fixed-bottom"></div> -->

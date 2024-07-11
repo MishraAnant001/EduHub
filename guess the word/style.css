@@ -1,0 +1,32 @@
+body{
+    background-image: linear-gradient(to right, #cd8a7b, #d59b8d, #ddaca0, #e5bdb3, #eccec7);
+}
+.section{
+    align-items: centers;
+}
+.buttonstart{
+    background-color:#cd8a7b;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+}
+.buttonstart:hover{
+scale: 1.10!important;
+}
+.guessbtn{
+    border: 1px solid grey;
+    padding: 0.7rem;
+    border-radius: 5px;
+    width: 3rem !important;
+    height: 3rem !important;
+    margin: 0.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #05cdb1e0;
+    font-weight: bold;
+}
+.guessbtn:hover{
+    scale: 1.10!important;
+}
+

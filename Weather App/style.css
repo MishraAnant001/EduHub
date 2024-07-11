@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+
+}
+
+body {
+  background-image: linear-gradient(to left, #cd8a7b, #d59b8d, #ddaca0, #e5bdb3, #eccec7);
+  overflow: hidden;
+}
+.card {
+  color: #fff;
+}
+::placeholder {
+  opacity: 0.7 !important;
+}
+
+#submit:hover {
+  scale: 1.10
+}

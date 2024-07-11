@@ -1,0 +1,37 @@
+body{
+    background-image: linear-gradient(to right, #cd8a7b, #d59b8d, #ddaca0, #e5bdb3, #eccec7);
+    overflow: hidden;
+}
+
+::placeholder{
+    opacity: 0.4 !important;
+    color: var(--c, black);
+}
+.detail{
+    cursor: pointer;
+}
+.text{
+    border: none;
+    outline:none;
+    width: 100%;
+}
+.edit{
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important ;
+    margin-right: 0.6rem;
+}
+.delete{
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important ;
+}
+.bi-moon-stars-fill{
+    cursor: pointer;
+    margin: 1rem;
+}
+.bi-sun-fill{
+    cursor: pointer;
+    margin: 1rem;
+}
+.main{
+    box-shadow: 7px 9px 19px 2px #808080b3;
+}
